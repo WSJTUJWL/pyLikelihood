@@ -324,7 +324,6 @@ def binnedAnalysis(mode='ql', ftol=None, **pars):
                           use_bl2=False, verbosity=verbosity,
                           psfcorr=pars['psfcorr'],wmap=pars['wmap'],
                           config=config)
-
     if ftol is not None:
         like.tol = ftol
     else:

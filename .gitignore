@@ -1,2 +1,3 @@
 build
 *.pyc
+python/st_version.py
