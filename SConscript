@@ -4,6 +4,9 @@
 # Authors: James Chiang <jchiang@slac.stanford.edu>, Eric Charles <echarles@slac.stanford.edu>, Matthew Wood <mdwood@slac.stanford.edu> 
 # Version: pyLikelihood-02-04-03
 
+from ST_Version import get_git_version
+version = get_git_version()
+
 Import('baseEnv')
 Import('listFiles')
 progEnv = baseEnv.Clone()
